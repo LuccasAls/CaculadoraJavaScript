@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 28px;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: #111;
+}
+div.container {
+    background: rgb(2, 1, 1);;
+    border-radius: 20px;
+    
+}
+
+
+div.containerValue {
+    display: grid;
+    width: 470px;
+    padding: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    
+    
+}
+.number-painel {
+    padding: 10px;
+}
+.number-painel input {
+    width: 450px;
+    height: 140px;
+    background: rgb(2, 1, 1);
+    border-radius: 0px ;
+    color: wheat;
+    text-align: right;
+    font-size: 3.5rem;
+    border-radius: 20px;
+    border: none;
+}
+.number-painel input:focus {
+    outline: none;
+}
+.number-painel input::-webkit-outer-spin-button,
+.number-painel input::-webkit-inner-spin-button {
+    -webkit-appearance: none ;
+
+}
+
+
+
+div.containerValue button {
+    
+    cursor: pointer;
+    
+}
+button.equal {
+    grid-row: 2/6;
+    grid-column: 4;
+    background-color: rgb(218, 134, 65);
+    border-radius: 20px;
+    
+
+}
+button.operation {
+    background-color: rgb(71, 152, 210);
+    border-radius: 50%;
+    color: white;
+    padding: 35px;
+    height: 100px;
+    width: 100px;
+}
+
+button.numbers {
+    background: lightgray;
+    border-radius: 50%;
+    padding: 35px;
+    height: 100px;
+    width: 100px;
+}
