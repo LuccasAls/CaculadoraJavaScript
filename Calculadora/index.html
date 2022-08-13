@@ -11,13 +11,13 @@
 
     <div class="container">
         <div class="number-painel">
-            <input type="text" name="filed" id="filedNumber" value="0">
+            <input type="text" name="filed" id="filedNumber" value="0" >
         </div>
         <div class="containerValue">
-            <button class="operation" data-action="add">+</button>
-            <button class="operation" data-action="subtract">-</button>
-            <button class="operation" data-action="multiply">&times;</button>
-            <button class="operation" data-action="divide">&divide;</button>
+            <button class="operation" data-action="add" data-previous-key-type="operator">+</button>
+            <button class="operation" data-action="subtract" data-previous-key-type="operator">-</button>
+            <button class="operation" data-action="multiply" data-previous-key-type="operator">&times;</button>
+            <button class="operation" data-action="divide" data-previous-key-type="operator">&divide;</button>
             <button class="numbers">1</button>
             <button class="numbers">2</button>
             <button class="numbers">3</button>
@@ -30,7 +30,8 @@
             <button class="numbers">0</button>
             <button class="pointer numbers" data-action="decimal" >.</button>
             <button class="clear numbers" data-action="clear">AC</button>
-            <button class="equal" data-action="equal">=</button>
+            <button class="equal" data-action="equal" >=</button>
+            <button class="numbers del" value=""></button>
             
         </div>
 
